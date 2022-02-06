@@ -1,0 +1,14 @@
+package com.greatlearning;
+
+public class Node {
+
+	Node left;
+	Node right;
+	int key;
+
+	Node(int key) {
+		this.key = key;
+		this.left = null;
+		this.right = null;
+	}
+}
